@@ -1,0 +1,82 @@
+Project Title: ACME Data Analysis using IBM SPSS Modeler
+
+Objective:
+
+The objective of this project is to analyze the ACME dataset using IBM SPSS Modeler to identify customer spending behavior, segmentation patterns, and potential overspending trends.
+
+
+---
+
+Tools Used:
+
+IBM SPSS Modeler – for visual data mining and predictive modeling.
+
+.DAT file – as the source dataset for analysis.
+
+
+
+---
+
+Process Overview:
+
+The project follows the CRISP-DM (Cross Industry Standard Process for Data Mining) methodology — consisting of Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment phases.
+
+1. Data Import:
+
+The dataset ACME data part 1.dat is imported into SPSS Modeler as the primary source.
+
+
+
+2. Data Preparation:
+
+Type Node: Defines field roles and measurement levels (e.g., continuous, categorical).
+
+SetToFlag Node: Converts categorical fields into binary (flag) variables for analysis.
+
+Difference Node: Calculates the difference between credit limit and amount spent.
+
+
+
+3. Feature Creation:
+
+CREDITLIMIT_Dollar and AMOUNT_SPENT_Dollar variables are compared to generate new features like DIFFERENCE_CL_AS_Dollar.
+
+Additional flags such as SPENT_TOO_MUCH and SEGMENT are created to classify customer behavior.
+
+
+
+4. Analysis and Segmentation:
+
+Customers are segmented based on their spending habits and credit utilization patterns.
+
+Gender-wise analysis is performed to observe spending differences.
+
+
+
+5. Output Visualization:
+
+Multiple Table Nodes display processed data and results at each step.
+
+Key metrics and segments are visualized for business insights.
+
+
+
+
+
+---
+
+Results & Insights:
+
+Identified customers who exceeded their credit limits (SPENT_TOO_MUCH).
+
+Segmented customers based on spending patterns and demographic factors like gender.
+
+Derived potential insights for improving credit limit policies and customer targeting strategies.
+
+
+
+---
+
+Conclusion:
+
+This project demonstrates how IBM SPSS Modeler can be used to perform data preparation, feature engineering, and behavioral segmentation using a visual workflow without coding. The resulting insights help businesses make data-driven decisions to improve customer management and financial policies.
