@@ -1,13 +1,13 @@
-Project Title: ACME Data Analysis using IBM SPSS Modeler
+# Project-Title: -ACME-Data-Analysis-using-IBM-SPSS-Modeler
 
-Objective:
+# Objective:
 
 The objective of this project is to analyze the ACME dataset using IBM SPSS Modeler to identify customer spending behavior, segmentation patterns, and potential overspending trends.
 
 
 ---
 
-Tools Used:
+# Tools Used:
 
 IBM SPSS Modeler – for visual data mining and predictive modeling.
 
@@ -17,7 +17,7 @@ IBM SPSS Modeler – for visual data mining and predictive modeling.
 
 ---
 
-Process Overview:
+# Process Overview:
 
 The project follows the CRISP-DM (Cross Industry Standard Process for Data Mining) methodology — consisting of Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment phases.
 
@@ -65,7 +65,7 @@ Key metrics and segments are visualized for business insights.
 
 ---
 
-Results & Insights:
+# Results & Insights:
 
 Identified customers who exceeded their credit limits (SPENT_TOO_MUCH).
 
@@ -75,8 +75,9 @@ Derived potential insights for improving credit limit policies and customer targ
 
 
 
+
 ---
 
-Conclusion:
+# Conclusion:
 
 This project demonstrates how IBM SPSS Modeler can be used to perform data preparation, feature engineering, and behavioral segmentation using a visual workflow without coding. The resulting insights help businesses make data-driven decisions to improve customer management and financial policies.
