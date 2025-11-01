@@ -62,6 +62,10 @@ Key metrics and segments are visualized for business insights.
 
 
 
+<img width="1902" height="1011" alt="vid" src="https://github.com/user-attachments/assets/d583f636-edde-4761-bf4b-3369bfd20fab" />
+
+
+
 
 ---
 
@@ -72,6 +76,7 @@ Identified customers who exceeded their credit limits (SPENT_TOO_MUCH).
 Segmented customers based on spending patterns and demographic factors like gender.
 
 Derived potential insights for improving credit limit policies and customer targeting strategies.
+
 
 
 
